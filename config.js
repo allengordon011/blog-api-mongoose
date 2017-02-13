@@ -1,4 +1,4 @@
 exports.DATABASE_URL = process.env.DATABASE_URL ||
                        global.DATABASE_URL ||
-                      'mongodb://mongodb://localhost/blog-api-mongoose';
+                      'mongodb://localhost/blog-api-mongoose';
 exports.PORT = process.env.PORT || 8080;
